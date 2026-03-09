@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jarvis AI Assistant</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00D4FF">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header class="header">
+<h1>JARVIS</h1>
+<p>Your Personal AI Assistant</p>
+</header>
+
+
+<!-- Assistant Animation -->
+
+<div class="assistant-container">
+
+<div class="jarvis-hud">
+
+<div class="ring r1"></div>
+<div class="ring r2"></div>
+<div class="ring r3"></div>
+
+<div class="pulse p1"></div>
+<div class="pulse p2"></div>
+<div class="pulse p3"></div>
+<div class="pulse p4"></div>
+
+<!-- AUDIO WAVE VISUALIZER -->
+
+<div class="audio-wave">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<div class="ai-core"></div>
+
+</div>
+
+</div>
+
+
+<!-- Subtitle Output -->
+
+<div class="subtitle-container">
+
+<p id="subtitle">Jarvis ready...</p>
+
+</div>
+
+
+<!-- Microphone Button -->
+
+<div class="controls">
+
+<button id="micBtn">
+<i class="fa-solid fa-microphone"></i>
+</button>
+
+</div>
+
+
+</div>
+<script src="SpeechSynthesis.js"></script>
+
+<script src="greetingSkill.js"></script>
+<script src="timeSkill.js"></script>
+<script src="websiteSkill.js"></script>
+
+<script src="memoryManager.js"></script>
+<script src="taskManager.js"></script>
+<script src="scheduler.js"></script>
+
+<script src="intentEngine.js"></script>
+
+<script src="aiService.js"></script>
+
+<script src="jarvisBrain.js"></script>
+
+<script src="SpeechRecognition.js"></script>
+
+<script src="app.js"></script>
+<script src="service-worker.js"></script>
+</body>
+</html>
